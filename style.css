@@ -1,11 +1,17 @@
 :root {
     --cor-hover: white;
+    --cor-botao: red;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", serif;
+    width: 100vw;
 }
 
 ul, ol, li {
@@ -37,4 +43,50 @@ li:hover {
 
 .menu img {
     height: 16px;
+}
+
+main {
+    width: 100%;
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+main div {
+    overflow-wrap: break-word;
+    gap: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    box-shadow: 0px 0px 29px 5px rgba(0,0,0,0.25);
+}
+
+main img {
+    padding: 40px;
+    box-shadow: 0px 56px 12px -49px rgba(0,0,0,0.26);
+}
+
+main h1 {
+    font-size: 24px;
+}
+
+main span {
+    font-size: 12px;
+}
+
+main p {
+    font-size: 28px;
+    color: var(--cor-botao);
+} 
+
+main button {
+    border: none;
+    color: white;
+    font-size: 18px;
+    background-color: var(--cor-botao);
+    padding: 16px;
 }
