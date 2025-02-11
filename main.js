@@ -1,17 +1,17 @@
 "use strict"
 
 const cidades = [
-    {nome: 'tabua', cor: 'red', icon: 'balao.png'},
+    {nome: 'Jandira', cor: 'red', icon: 'balao.png'},
     {nome: 'Roraima', cor: 'blue', icon: 'canhao.png'},
-    {nome: 'Jandira City', cor: 'yellow', icon: 'carrossel.png'},
-    {nome: 'Pombo', cor: 'purple', icon: 'parque.png'}
+    {nome: 'Xique Xique', cor: 'yellow', icon: 'carrossel.png'},
+    {nome: 'Juazeiro', cor: 'purple', icon: 'parque.png'}
 ]
 
 const cards = [
-    {imagem: 'balao.png', titulo: 'Pneu', desc: 'dsfartsfhsfhdahhgfdghuirhewnjtk5hbjkgbsucxhvnf,guidzgjkshjkdhgkjdg', preco: '50', cor: 'red'},
-    {imagem: 'canhao.png', titulo: 'Sapatenis', desc: 'dsfartsfhsfhdahhgfdghuirhewnjtk5hbjkgbsucxhvnf,guidzgjkshjkdhgkjdg', preco: '50', cor: 'purple'},
-    {imagem: 'carrossel.png', titulo: 'Cachumbeira', desc: 'dsfartsfhsfhdahhgfdghuirhewnjtk5hbjkgbsucxhvnf,guidzgjkshjkdhgkjdg', preco: '50', cor: 'yellow'},
-    {imagem: 'parque.png', titulo: 'Ratos safados', desc: 'dsfartsfhsfhdahhgfdghuirhewnjtk5hbjkgbsucxhvnf,guidzgjkshjkdhgkjdg', preco: '50', cor: 'blue'}
+    {imagem: 'pneu.webp', titulo: 'Pneu', desc: 'O Pneu Durable é robusto e durável, ideal para maquinários de construção e equipamentos industriais. Com 12 camadas (12 PR) e design Tubeless (sem câmara), oferece resistência a impactos e maior capacidade de carga. Sua construção sem câmara facilita a manutenção e proporciona maior segurança.', preco: 'R$150.00', cor: 'tomato'},
+    {imagem: 'enaldinho.webp', titulo: 'Livro Enaldinho', desc: 'O Livro Ilustrado Oficial Enaldinho é uma obra divertida e cheia de aventuras, inspirada no fenômeno Enaldinho, um dos maiores influenciadores da internet. Com ilustrações envolventes, o livro traz a história do criador de conteúdo de forma empolgante, perfeita para fãs de todas as idades.', preco: 'R$22,47', cor: 'magenta'},
+    {imagem: 'painel.jfif', titulo: 'Painel Solar', desc: 'O Painel Solar é a solução ideal para quem busca economia de energia e sustentabilidade. Com tecnologia de ponta, oferece alta eficiência na conversão de luz solar em energia elétrica, ajudando a reduzir os custos com eletricidade e a preservar o meio ambiente.', preco: '750', cor: 'green'},
+    {imagem: 'betoneira.png', titulo: 'Betoneira', desc: 'A Betoneira Elétrica 400L é a ferramenta perfeita para quem precisa de alta capacidade e eficiência na mistura de concreto. ela é ideal para obras de médio a grande porte, proporcionando agilidade na produção de concreto e garantindo uma mistura homogênea.', preco: '50', cor: 'orange'},
 ]
 
 
